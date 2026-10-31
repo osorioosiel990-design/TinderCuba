@@ -1,0 +1,25 @@
+name: tinder_cubano
+description: "Dating app for Cuba optimized for low bandwidth using Supabase."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  supabase_flutter: ^2.5.0
+  cached_network_image: ^3.3.1
+  flutter_card_swiper: ^0.1.0
+  intl: ^0.19.0
+  image_picker: ^1.1.2
+  uuid: ^4.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
